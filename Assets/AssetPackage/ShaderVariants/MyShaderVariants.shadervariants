@@ -53,6 +53,16 @@ ShaderVariantCollection:
       variants:
       - keywords: 
         passType: 0
+  - first: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 93446b5c5339d4f00b85c159e1159b7c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
   - first: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
     second:
       variants:
@@ -66,25 +76,8 @@ ShaderVariantCollection:
   - first: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
     second:
       variants:
-      - keywords: _EMISSION _SURFACE_TYPE_TRANSPARENT
-        passType: 0
       - keywords: _SURFACE_TYPE_TRANSPARENT
         passType: 0
-  - first: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
-  - first: {fileID: 4800000, guid: 93446b5c5339d4f00b85c159e1159b7c, type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
-  - first: {fileID: -6465566751694194690, guid: 3bd9d617d99c4cb489f192f05a65a5ef, type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 13
   - first: {fileID: -6465566751694194690, guid: 4b77abb2b4d7f7642ad03b58fe047c87, type: 3}
     second:
       variants:
@@ -95,19 +88,54 @@ ShaderVariantCollection:
       variants:
       - keywords: 
         passType: 0
-  - first: {fileID: -6465566751694194690, guid: 85e4de5a655982f4ebf4ff2132cfcde4, type: 3}
+  - first: {fileID: -6465566751694194690, guid: 3bd9d617d99c4cb489f192f05a65a5ef, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 047efe68232515640a08141e28e6cb27, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 36e335017ad71d54fbb10842863188ae, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: d609e83caba0e3e42b7578a1da99fc7c, type: 3}
+    second:
+      variants:
+      - keywords: _ALPHAMODULATE_ON _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: _ALPHATEST_ON
+        passType: 0
+      - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: _ALPHATEST_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: 1e8a610c9e01c3648bac42585e5fc676, type: 3}
     second:
       variants:
       - keywords: 
         passType: 0
       - keywords: 
         passType: 8
-  - first: {fileID: -6465566751694194690, guid: 047efe68232515640a08141e28e6cb27, type: 3}
+  - first: {fileID: 4800000, guid: 8bdcdc7ee298e594a9c20c61d25c33b6, type: 3}
     second:
       variants:
       - keywords: 
-        passType: 13
-  - first: {fileID: -6465566751694194690, guid: 0159b0f5691705243930fda6bffee57c, type: 3}
+        passType: 0
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 4e8caa36c07aacf4ab270da00784e4d9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 53efa1d97f5d9f74285d4330cda14e36, type: 3}
     second:
       variants:
       - keywords: 

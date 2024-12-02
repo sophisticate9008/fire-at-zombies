@@ -79,26 +79,10 @@ MonoBehaviour:
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/AssetPackage/Enemys/Animator
-        CollectorGUID: 1cbe985fb83ca0342861bdfcca73f714
+      - CollectPath: Assets/AssetPackage/Enemys
+        CollectorGUID: 84306130f0e89cc48b4460b32b358191
         CollectorType: 0
-        AddressRuleName: AddressByFileName
-        PackRuleName: PackDirectory
-        FilterRuleName: CollectAll
-        AssetTags: 
-        UserData: 
-      - CollectPath: Assets/AssetPackage/Enemys/AnimatorControllers
-        CollectorGUID: bc3853b5c1fbdc2439f9fafd5c96f88f
-        CollectorType: 0
-        AddressRuleName: AddressByFileName
-        PackRuleName: PackDirectory
-        FilterRuleName: CollectAll
-        AssetTags: 
-        UserData: 
-      - CollectPath: Assets/AssetPackage/Enemys/clips
-        CollectorGUID: 642c1a73bb60dc946a16578c6a0259e5
-        CollectorType: 0
-        AddressRuleName: AddressByFileName
+        AddressRuleName: AddressDisable
         PackRuleName: PackDirectory
         FilterRuleName: CollectAll
         AssetTags: 

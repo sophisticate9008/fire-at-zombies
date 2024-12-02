@@ -1,7 +1,46 @@
 {
-    "ShaderTotalCount": 19,
-    "VariantTotalCount": 24,
+    "ShaderTotalCount": 23,
+    "VariantTotalCount": 32,
     "ShaderVariantInfos": [
+        {
+            "AssetPath": "Assets/AssetPackage/Arms/Electro/ElectroLine Shader.shadergraph",
+            "ShaderName": "Shader Graphs/ElectroLine Shader",
+            "ShaderVariantCount": 1,
+            "ShaderVariantElements": [
+                {
+                    "PassType": 13,
+                    "Keywords": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "AssetPath": "Assets/AssetPackage/Arms/Electro/ElectroLineBall Shader 1.shadergraph",
+            "ShaderName": "Shader Graphs/ElectroLineBall Shader 1",
+            "ShaderVariantCount": 1,
+            "ShaderVariantElements": [
+                {
+                    "PassType": 13,
+                    "Keywords": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "AssetPath": "Assets/AssetPackage/Arms/Laser/LaserShader.shadergraph",
+            "ShaderName": "Shader Graphs/LaserShader",
+            "ShaderVariantCount": 1,
+            "ShaderVariantElements": [
+                {
+                    "PassType": 13,
+                    "Keywords": [
+                        ""
+                    ]
+                }
+            ]
+        },
         {
             "AssetPath": "Assets/AssetPackage/Effects/EffectRes/UIGradientWithAlpha.shader",
             "ShaderName": "Custom/UIGradientWithAxisSelection",
@@ -16,8 +55,42 @@
             ]
         },
         {
-            "AssetPath": "Assets/AssetPackage/Effects/ShaderAndMaterial/SpriteOutLine.shadergraph",
-            "ShaderName": "Shader Graphs/SpriteOutLine",
+            "AssetPath": "Assets/AssetPackage/Effects/ShaderAndMaterial/Shader/CommonShader.shadergraph",
+            "ShaderName": "Shader Graphs/CommonShader",
+            "ShaderVariantCount": 4,
+            "ShaderVariantElements": [
+                {
+                    "PassType": 0,
+                    "Keywords": [
+                        "_ALPHAMODULATE_ON",
+                        "_ALPHATEST_ON",
+                        "_SURFACE_TYPE_TRANSPARENT"
+                    ]
+                },
+                {
+                    "PassType": 0,
+                    "Keywords": [
+                        "_ALPHATEST_ON"
+                    ]
+                },
+                {
+                    "PassType": 0,
+                    "Keywords": [
+                        "_ALPHATEST_ON",
+                        "_SURFACE_TYPE_TRANSPARENT"
+                    ]
+                },
+                {
+                    "PassType": 8,
+                    "Keywords": [
+                        "_ALPHATEST_ON"
+                    ]
+                }
+            ]
+        },
+        {
+            "AssetPath": "Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Additive.shader",
+            "ShaderName": "Spine/Blend Modes/Skeleton PMA Additive",
             "ShaderVariantCount": 2,
             "ShaderVariantElements": [
                 {
@@ -35,47 +108,8 @@
             ]
         },
         {
-            "AssetPath": "Assets/Resources/Arms/Electro/ElectroLine Shader.shadergraph",
-            "ShaderName": "Shader Graphs/ElectroLine Shader",
-            "ShaderVariantCount": 1,
-            "ShaderVariantElements": [
-                {
-                    "PassType": 13,
-                    "Keywords": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "AssetPath": "Assets/Resources/Arms/Electro/ElectroLineBall Shader 1.shadergraph",
-            "ShaderName": "Shader Graphs/ElectroLineBall Shader 1",
-            "ShaderVariantCount": 1,
-            "ShaderVariantElements": [
-                {
-                    "PassType": 13,
-                    "Keywords": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "AssetPath": "Assets/Resources/Arms/Laser/LaserShader.shadergraph",
-            "ShaderName": "Shader Graphs/LaserShader",
-            "ShaderVariantCount": 1,
-            "ShaderVariantElements": [
-                {
-                    "PassType": 13,
-                    "Keywords": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "AssetPath": "Assets/Resources/Arms/Tornado/TornadoShader.shadergraph",
-            "ShaderName": "Shader Graphs/TornadoShader",
+            "AssetPath": "Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Multiply.shader",
+            "ShaderName": "Spine/Blend Modes/Skeleton PMA Multiply",
             "ShaderVariantCount": 2,
             "ShaderVariantElements": [
                 {
@@ -86,6 +120,57 @@
                 },
                 {
                     "PassType": 8,
+                    "Keywords": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "AssetPath": "Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Screen.shader",
+            "ShaderName": "Spine/Blend Modes/Skeleton PMA Screen",
+            "ShaderVariantCount": 2,
+            "ShaderVariantElements": [
+                {
+                    "PassType": 0,
+                    "Keywords": [
+                        ""
+                    ]
+                },
+                {
+                    "PassType": 8,
+                    "Keywords": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "AssetPath": "Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton.shader",
+            "ShaderName": "Spine/Skeleton",
+            "ShaderVariantCount": 2,
+            "ShaderVariantElements": [
+                {
+                    "PassType": 0,
+                    "Keywords": [
+                        ""
+                    ]
+                },
+                {
+                    "PassType": 8,
+                    "Keywords": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "AssetPath": "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/FallbackShader.shader",
+            "ShaderName": "Hidden/Core/FallbackError",
+            "ShaderVariantCount": 1,
+            "ShaderVariantElements": [
+                {
+                    "PassType": 0,
                     "Keywords": [
                         ""
                     ]
@@ -127,15 +212,8 @@
         {
             "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader",
             "ShaderName": "Universal Render Pipeline/Particles/Unlit",
-            "ShaderVariantCount": 2,
+            "ShaderVariantCount": 1,
             "ShaderVariantElements": [
-                {
-                    "PassType": 0,
-                    "Keywords": [
-                        "_EMISSION",
-                        "_SURFACE_TYPE_TRANSPARENT"
-                    ]
-                },
                 {
                     "PassType": 0,
                     "Keywords": [

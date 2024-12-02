@@ -1,0 +1,13 @@
+
+NormalMonster.png
+size: 327,699
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ComfyUI_00508_
+  rotate: false
+  xy: 2, 2
+  size: 323, 695
+  orig: 512, 768
+  offset: 101, 39
+  index: -1

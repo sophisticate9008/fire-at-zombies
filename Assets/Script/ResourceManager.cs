@@ -404,7 +404,7 @@ public class ResourceManager : MonoBehaviour
         {
             UnityEngine.TextAsset textAsset = assetObj as UnityEngine.TextAsset;
             LoadImageErrorCode err = RuntimeApi.LoadMetadataForAOTAssembly(textAsset.bytes, mode);
-            Debug.Log($"LoadMetadataForAOTAssembly:{textAsset.name}. mode:{mode} ret:{err}");
+            // Debug.Log($"LoadMetadataForAOTAssembly:{textAsset.name}. mode:{mode} ret:{err}");
         }
         /// 注意，补充元数据是给AOT dll补充元数据，而不是给热更新dll补充元数据。
         /// 热更新dll不缺元数据，不需要补充，如果调用LoadMetadataForAOTAssembly会返回错误

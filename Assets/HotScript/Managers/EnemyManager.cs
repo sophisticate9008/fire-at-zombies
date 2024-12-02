@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyManager : ManagerBase<EnemyManager>
 {
     public List<AnimationCurve> spawnRateCurves; // 每种怪物的生成速率曲线
-    public List<string> enemyTypes = new() { "Xiaojiangshi" }; // 支持的怪物类型
+    private List<string> enemyTypes = new() { "NormalMonster" }; // 支持的怪物类型
     private List<EnemyConfigBase> enemyConfigBases = new(); // 怪物配置
     private List<GameObject> monsterPrefabs = new(); // 怪物预制体
     private int maxCount = 1000; // 最大生成数量

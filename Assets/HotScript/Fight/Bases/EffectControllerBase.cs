@@ -18,7 +18,8 @@ namespace FightBases
         }
         public virtual void ChangeScale()
         {
-            transform.localScale = Enemy.transform.localScale;
+            // Vector3 scaleNew = Enemy.transform.localScale * 4;
+            // transform.localScale = scaleNew;
         }
         public virtual void Play()
         {
